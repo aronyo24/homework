@@ -22,4 +22,6 @@ urlpatterns = [
     path('', include('section1.urls')),
     path('', include('section2.urls')),
     path('', include('section3.urls')),
+    path('', include('section4.urls')),
+    path('', include('section5.urls')),
 ]
