@@ -3,12 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>IT Homework - Home</title>
+	<title>Section 3 - Homework</title>
 </head>
-
-<body style="font-family: Arial, Helvetica, sans-serif; margin: 0; color: #222; line-height: 1.5;">
-    <header>
-        <nav style="background: #2c3e50;">
+<body style="font-family: Arial, Helvetica, sans-serif; margin: 20px; color: #222;">
+	<header>
+        <header>
+        <nav style="background: #094d03;">
         <ul style="list-style: none; margin: 0; padding: 8px 12px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
             <li style="margin: 0;"><a href="{% url 'section1' %}" style="color: #ffffff; text-decoration: none; padding: 8px 12px; display: inline-block; border-radius: 4px;">Section 1</a></li>
             <li style="margin: 0;"><a href="{% url 'section2' %}" style="color: #ffffff; text-decoration: none; padding: 8px 12px; display: inline-block; border-radius: 4px;">Section 2</a></li>
@@ -16,13 +16,17 @@
              <li style="margin: 0;"><a href="{% url 'section4' %}" style="color: #ffffff; text-decoration: none; padding: 8px 12px; display: inline-block; border-radius: 4px;">Section 4</a></li>
             <li style="margin: 0;"><a href="{% url 'section5' %}" style="color: #ffffff; text-decoration: none; padding: 8px 12px; display: inline-block; border-radius: 4px;">Section 5</a></li>
         </ul>
-        </nav>
+    </nav>
     </header>
+		<h1>Section 4</h1>
+	</header>
 
-    <main style="max-width: 900px; margin: 20px auto; padding: 0 12px;">
-       <h1 style="margin: 0; font-size: 1.6rem; text-align: center;">Homework</h1>
-    </main>
+	<main>
+		<p>This is page 4 of section 4.</p>
+	</main>
 
+	<p><a href="{% url 'home' %}">Back to Home</a></p>
 </body>
+
 </html>
 
